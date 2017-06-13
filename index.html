@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Twitch Tv app</title>
+    <script src="https://code.jquery.com/jquery-3.2.1.min.js" integrity="sha256-hwg4gsxgFZhOsEEamdOYGBf13FyQuiTwlAQgxVSNgt4=" crossorigin="anonymous"></script>
+    <script type="text/javascript" src="main.js"></script>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/normalize/7.0.0/normalize.css">
+    <link rel="stylesheet" href="main.css">
+</head>
+
+<body>
+    <div class="container">
+        <div class="tabs">
+            <button class="tablink all active" >All</button>
+            <button class="tablink onlineButton" name="button">Online</button>
+            <button class="tablink offlineButton" name="button">Offline</button>
+        </div>
+        <input type="text" class="searchBar" value="">
+        <div class="tabContent" id="All">
+
+        </div>
+        <div class="tabContent doNotDisplay" id="Online">
+
+        </div>
+        <div class="tabContent  doNotDisplay" id="Offline">
+
+        </div>
+
+    </div>
+
+</body>
+
+</html>

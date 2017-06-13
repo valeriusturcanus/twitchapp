@@ -1,0 +1,74 @@
+body {
+    background-color: #555;
+    color:#ccc;
+}
+.container {
+    margin: auto;
+    width: 320px;
+    background-color: #666;
+    border-radius: 0 0 30px 30px;
+
+}
+
+
+.tabs {
+    background-color: #444;
+    overflow: hidden;
+}
+
+button {
+    background-color: inherit;
+    border: none;
+    outline: none;
+    cursor: pointer;
+    font-size: 1.6em;
+    margin-left: 0;
+    margin-right: 0;
+    color: #ccc;
+    line-height: 2em;
+}
+button:hover{
+    background-color: #665;
+}
+input {
+    margin-top: 0.5em;
+    margin-bottom: 0.5em;
+    margin-left:10%;
+    margin-right: 10%;
+    width:80%;
+    font-size: 2em;
+    border-radius: 15px;
+    text-align: center;
+    background-color: #555;
+    color:inherit;
+    border: none;
+}
+.tabContent {
+    border-top: 1px solid #999;
+    padding-bottom: 1em;
+}
+.tabContent h2 {
+    text-align: center;
+    font-size: 2em;
+}
+a {
+    color:#ccc;
+    text-decoration: none;
+
+}
+.tabContent div:hover {
+    background-color: #565;
+    cursor:pointer;
+}
+.tabContent p {
+    text-align: center;
+}
+.doNotDisplay {display:none;}
+.active {
+    background-color: #565;
+}
+ @media screen and (min-width:600px){
+     .container {
+         width:600px;
+     }
+ }
