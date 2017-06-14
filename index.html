@@ -7,16 +7,19 @@
     <title>Twitch Tv app</title>
     <script src="https://code.jquery.com/jquery-3.2.1.min.js" integrity="sha256-hwg4gsxgFZhOsEEamdOYGBf13FyQuiTwlAQgxVSNgt4=" crossorigin="anonymous"></script>
     <script type="text/javascript" src="main.js"></script>
-    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/normalize/7.0.0/normalize.css">
+    <!-- <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/normalize/7.0.0/normalize.css"> -->
+    <!-- Latest compiled and minified CSS -->
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" integrity="sha384-BVYiiSIFeK1dGmJRAkycuHAHRg32OmUcww7on3RYdg4Va+PmSTsz/K68vbdEjh4u" crossorigin="anonymous">
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js" integrity="sha384-Tc5IQib027qvyjSMfHjOMaLkfuWVxZxUPnCJA7l2mCWNIpG9mGCD8wGNIcPD7Txa" crossorigin="anonymous"></script>
     <link rel="stylesheet" href="main.css">
 </head>
 
 <body>
     <div class="container">
-        <div class="tabs">
-            <button class="tablink all active" >All</button>
-            <button class="tablink onlineButton" name="button">Online</button>
-            <button class="tablink offlineButton" name="button">Offline</button>
+        <div class="row tabs">
+            <div class="col-xs-4 tablink all active">All</div>
+            <div class="col-xs-4 tablink onlinediv" name="div">Online</div>
+            <div class="col-xs-4 tablink offlinediv" name="div">Offline</div>
         </div>
         <input type="text" class="searchBar" value="">
         <div class="tabContent" id="All">
@@ -26,6 +29,9 @@
 
         </div>
         <div class="tabContent  doNotDisplay" id="Offline">
+
+        </div>
+        <div class="row footer">
 
         </div>
 

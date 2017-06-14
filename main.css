@@ -1,34 +1,36 @@
 body {
-    background-color: #555;
+    background-color: #6d4c41;
     color:#ccc;
 }
 .container {
     margin: auto;
     width: 320px;
-    background-color: #666;
-    border-radius: 0 0 30px 30px;
+    background-color: #bdc192;
+    color:#424242
+    /*border-radius: 0 0 30px 30px;*/
 
 }
 
 
 .tabs {
-    background-color: #444;
+    background-color: #40241a;
     overflow: hidden;
 }
 
-button {
+.tablink {
     background-color: inherit;
-    border: none;
+    /*border: 2px solid #444;*/
     outline: none;
     cursor: pointer;
-    font-size: 1.6em;
+    font-size: 2em;
     margin-left: 0;
     margin-right: 0;
     color: #ccc;
     line-height: 2em;
+    text-align: center;
 }
 button:hover{
-    background-color: #665;
+    background-color: #9c786c;
 }
 input {
     margin-top: 0.5em;
@@ -39,12 +41,12 @@ input {
     font-size: 2em;
     border-radius: 15px;
     text-align: center;
-    background-color: #555;
+    background-color: #9c786c;
     color:inherit;
     border: none;
 }
 .tabContent {
-    border-top: 1px solid #999;
+    border-top: 1px solid #9c786c;
     padding-bottom: 1em;
 }
 .tabContent h2 {
@@ -52,20 +54,26 @@ input {
     font-size: 2em;
 }
 a {
-    color:#ccc;
+    color:#424242;
     text-decoration: none;
 
 }
+a:hover { color:inherit;}
 .tabContent div:hover {
-    background-color: #565;
+    background-color: #f0f4c3;
     cursor:pointer;
 }
 .tabContent p {
     text-align: center;
+    line-height: 5.1em;
 }
 .doNotDisplay {display:none;}
 .active {
     background-color: #565;
+}
+.footer {
+    height: 1em;
+    background-color: #40241a;
 }
  @media screen and (min-width:600px){
      .container {
